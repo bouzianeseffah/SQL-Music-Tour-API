@@ -29,7 +29,7 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.DATE,
       allowNull: false
   },
-    start_time: {
+  available_start_time: {
       type: DataTypes.DATE,
       allowNull: false
   },

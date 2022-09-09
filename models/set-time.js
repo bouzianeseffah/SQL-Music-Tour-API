@@ -19,7 +19,7 @@ module.exports = (sequelize, DataTypes) => {
       primaryKey: true,
       autoIncrement: true
     },
-    start_time: {
+    available_start_time: {
       type: DataTypes.DATE,
       allowNull: false
     },
